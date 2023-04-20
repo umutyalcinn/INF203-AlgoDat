@@ -87,7 +87,3 @@ unsigned int *initDistArray(int start, int n) {
 
     return distArray;
 }
-
-void addEdge(unsigned int **adjMatrix, int start, int end, int weight) {
-    adjMatrix[start, end] = weight;
-}
